@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="app.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <div class="mini-container">
+            <div class="title"><span>CALCULATOR</span></div>
+        <div class="input-1">
+            <input id="n1"  class="first-number" type="text" placeholder="FIRST NUMBER">
+        </div>
+        <p class="plus" style="display: flex;">+</p>
+        <p class="minus" style="display: none;">-</p>
+        <p class="multi" style="display: none;">*</p>
+        <p class="divide" style="display: none;">/</p>
+        <div class="input-2">
+            <input id="n2" class="second-number" type="text" placeholder="SECOND NUMBER">
+        </div>
+        <div class="calculate">
+            <button class="calc" id="operator" value="+" onclick="calc();" >CALCULATE</button>
+        </div>
+            <span><i class='bx bx-down-arrow-alt'></i></span>
+        <div class="outputDiv">
+            <input id="result" class="result" type="box">
+        </div>
+    </div>
+</body>
+</html>
